@@ -121,9 +121,9 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
         "caption": f"Update of Apollo (with ImprovedCustomApi) just got released!",
         "date": fetched_data_latest["published_at"],
         "tintColor": "3F91FE",
-        "imageURL": "https://raw.githubusercontent.com/Balackburn/Apollo/main/images/news/news_2.webp",
+        "imageURL": "https://raw.githubusercontent.com/Area45/Apollo-AutoIPA/main/images/news/news_2.webp",
         "notify": True,
-        "url": f"https://github.com/Balackburn/Apollo/releases/tag/{tag}"
+        "url": f"https://github.com/Area45/Apollo-AutoIPA/releases/tag/{tag}"
     }
 
     # Check if the news entry already exists
@@ -139,7 +139,7 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
 
 # Main function
 def main():
-    repo_url = "Balackburn/Apollo"
+    repo_url = "Area45/Apollo-AutoIPA"
     json_file = "apps.json"
 
     fetched_data_all = fetch_all_releases(repo_url)
