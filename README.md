@@ -1,3 +1,6 @@
+This is Forked from https://github.com/Balackburn/Apollo
+I don't know what I'm doing and this is just for personal use so I can push updates for Apollo when Balackburn hasn't yet
+
 <p align="center">
   <img src="https://github.com/Balackburn/Apollo/assets/93828569/532f0b7e-8c06-483c-9d04-8b84ada7b972" alt="Apollo for Reddit Banner" />
 </p>
